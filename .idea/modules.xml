@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/accountoptions.iml" filepath="$PROJECT_DIR$/accountoptions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logic/logic.iml" filepath="$PROJECT_DIR$/logic/logic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/persistence/persistence.iml" filepath="$PROJECT_DIR$/persistence/persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accountoptions-api/accountoptions-api.iml" filepath="$PROJECT_DIR$/accountoptions-api/accountoptions-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accountoptions-logic/accountoptions-logic.iml" filepath="$PROJECT_DIR$/accountoptions-logic/accountoptions-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accountoptions-persistence/accountoptions-persistence.iml" filepath="$PROJECT_DIR$/accountoptions-persistence/accountoptions-persistence.iml" />
     </modules>
   </component>
 </project>
