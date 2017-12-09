@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd22300b-f758-47ef-9ed2-a59b5a588dc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accountoptions-persistence/src/main/resources/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="dd22300b-f758-47ef-9ed2-a59b5a588dc3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/persistence/target/" />
@@ -1011,12 +1007,12 @@
       <updated>1512824705482</updated>
       <workItem from="1512824710109" duration="1648000" />
       <workItem from="1512826526220" duration="6709000" />
-      <workItem from="1512838484643" duration="1451000" />
+      <workItem from="1512838484643" duration="1563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9808000" />
+    <option name="totallyTimeSpent" value="9920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
