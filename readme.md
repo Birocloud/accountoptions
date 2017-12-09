@@ -2,6 +2,20 @@
 
 Following are the instruction on how to get the application up and running.
 
+### How to install and run (overall steps)
+- Add config.yaml into persistence/resources
+- Clean and package with maven
+- Build docker image from api's jar
+- Then either:
+	- classical way:
+		- Run the postgres container
+		- Run the ao-api container
+	- docker compose way:
+		- docker-compose up
+
+
+### Specifics
+
 ##### Classic way without docker compose
 
 - run the postgres container
