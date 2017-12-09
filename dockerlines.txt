@@ -1,0 +1,6 @@
+docker run -d --name postgres-accountoptions -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=accountoptions -p 5432:5432 postgres:latest
+
+
+// move .jar to the location of dockerfile
+docker build -t ao-api .
+docker run -d --name aoapi  -p 8080:8080 ao-api

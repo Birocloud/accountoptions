@@ -1,0 +1,19 @@
+version: "3"
+services:
+  accountoptions-postgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=accountoptions
+    network_mode: "bridge"
+    ports:
+      - "5432:5432"
+  accountoptions-service:
+    image: ao-api
+    environment:
+      - KUMULUZEE_DATASOURCES0_CONNECTIONURL=jdbc:postgresql://docker.for.mac.localhost:5432/accountoptions
+    ports:
+      - "8080:8080"
+    network_mode: "bridge"
+    depends_on:
+      - accountoptions-postgres
