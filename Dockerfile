@@ -4,7 +4,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-ADD ./accountoptions-api-1.0-SNAPSHOT.jar /app
+ADD ./accountoptions-api/target/accountoptions-api-1.0-SNAPSHOT.jar /app
 
 EXPOSE 8080
 
