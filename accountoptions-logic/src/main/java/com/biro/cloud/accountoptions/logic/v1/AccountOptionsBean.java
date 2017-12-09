@@ -1,23 +1,21 @@
-package com.biro.cloud.accountoptions.logic;
+package com.biro.cloud.accountoptions.logic.v1;
 import java.util.List;
 
-        import java.util.List;
-
 // project
-        import org.birokrat.birocloud.accountoptions.persistence.v1.AccountOptions;
+import com.biro.cloud.accountoptions.persistence.v1.AccountOptions;
 
 // javax persistence
-        import javax.persistence.EntityManager;
-        import javax.persistence.PersistenceContext;
-        import javax.persistence.Query;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 
 // kumuluzee
-        import com.kumuluz.ee.rest.beans.QueryParameters;
-        import com.kumuluz.ee.rest.utils.JPAUtils;
+import com.kumuluz.ee.rest.beans.QueryParameters;
+import com.kumuluz.ee.rest.utils.JPAUtils;
 
 // other
-        import javax.enterprise.context.RequestScoped;
-        import javax.ws.rs.core.UriInfo;
+import javax.enterprise.context.RequestScoped;
+import javax.ws.rs.core.UriInfo;
 
 
 @RequestScoped
