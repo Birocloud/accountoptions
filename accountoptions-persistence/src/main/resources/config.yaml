@@ -4,12 +4,17 @@ kumuluzee:
     name: dev
   version: 1.0.0
   server:
-    base-url: http://localhost:8080
+    base-url: http://localhost:8081
     http:
-      port: 8080
+      port: 8081
   datasources:
     - jndi-name: jdbc/accountoptionsDS
-      connection-url: jdbc:postgresql://docker.for.mac.localhost:5432/accountoptions
+      connection-url: jdbc:postgresql://localhost:5432/accountoptions
       username: postgres
       password: postgres
       max-pool-size: 20
+  discovery:
+      etcd:
+        hosts: http://0.0.0.0:2379
+      ttl: 20
+      ping-interval: 15
